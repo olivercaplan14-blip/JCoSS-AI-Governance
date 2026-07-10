@@ -42,22 +42,21 @@ This repository provides the framework for managing those considerations.
 ---
 
 # Repository Structure
-```text
 school-ai-governance/
 
 ├── policies/
-│   ├── ai-ethics-statement.md
-│   ├── acceptable-use-policy.md
-│   └── assessment-ai-policy.md
+│ ├── ai-ethics-statement.md
+│ ├── acceptable-use-policy.md
+│ └── assessment-ai-policy.md
 │
 ├── guidance/
-│   ├── student-ai-guidance.md
-│   └── staff-ai-guidance.md
+│ ├── student-ai-guidance.md
+│ └── staff-ai-guidance.md
 │
 ├── governance/
-│   ├── ai-tool-approval-process.md
-│   ├── review-cycle.md
-│   └── ai-risk-register.md
+│ ├── ai-tool-approval-process.md
+│ ├── review-cycle.md
+│ └── ai-risk-register.md
 │
 ├── README.md
 └── CONTRIBUTING.md

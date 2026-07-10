@@ -43,9 +43,6 @@ This repository provides the framework for managing those considerations.
 
 ## Repository Structure
 
-```text
-school-ai-governance/
-```
 
 ### Policies
 - [AI Ethics Statement](Policies/AI%20Ethics%20Statement)

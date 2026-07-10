@@ -48,19 +48,18 @@ school-ai-governance/
 ```
 
 ### Policies
-- [ai-ethics-statement.md](Policies/ai-ethics-statement.md)
-- [acceptable-use-policy.md](Policies/acceptable-use-policy.md)
-- [assessment-ai-policy.md](Policies/assessment-ai-policy.md)
+- [AI Ethics Statement](Policies/AI%20Ethics%20Statement)
+- [AI Acceptable Use Policy](Policies/AI%20Acceptable%20Use%20Policy)
+- [AI Assessment Policy](Policies/AI%20Assessment%20Policy)
 
 ### Guidance
-- [student-ai-guidance.md](Guidance/student-ai-guidance.md)
-- [staff-ai-guidance.md](Guidance/staff-ai-guidance.md)
+- [Student AI Guidance](Guidance/Student%20AI%20Guidance)
+- [Staff AI Guidance](Guidance/Staff%20AI%20Guidance)
 
 ### Governance
-- [ai-tool-approval-process.md](Governance/ai-tool-approval-process.md)
-- [review-cycle.md](Governance/review-cycle.md)
-- [ai-risk-register.md](Governance/ai-risk-register.md)
+- [AI Tool Approval Process](Governance/AI%20Tool%20Approval%20Process)
+- [AI Governance Review Cycle](Governance/AI%20Governance%20Review%20Cycle)
+- [AI Risk Assessment](Governance/AI%20Risk%20Assessment)
 
 ### Root
 - [README.md](README.md)
-- [CONTRIBUTING.md](CONTRIBUTING.md)

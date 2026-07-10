@@ -41,34 +41,26 @@ This repository provides the framework for managing those considerations.
 
 ---
 
-# Repository Structure
+## Repository Structure
 
-The repository is organised into the following sections:
+```text
+school-ai-governance/
+```
 
-- **policies/**
-  - `ai-ethics-statement.md`  
-    Defines the school's principles and ethical approach to AI.
-  - `acceptable-use-policy.md`  
-    Defines acceptable and unacceptable uses of AI.
-  - `assessment-ai-policy.md`  
-    Defines how AI may be used within student assessment.
+### Policies
+- [ai-ethics-statement.md](policies/ai-ethics-statement.md)
+- [acceptable-use-policy.md](policies/acceptable-use-policy.md)
+- [assessment-ai-policy.md](policies/assessment-ai-policy.md)
 
-- **guidance/**
-  - `student-ai-guidance.md`  
-    Provides practical guidance for students using AI.
-  - `staff-ai-guidance.md`  
-    Provides guidance for staff using AI in teaching and administration.
+### Guidance
+- [student-ai-guidance.md](guidance/student-ai-guidance.md)
+- [staff-ai-guidance.md](guidance/staff-ai-guidance.md)
 
-- **governance/**
-  - `ai-tool-approval-process.md`  
-    Defines how AI tools are evaluated and approved.
-  - `review-cycle.md`  
-    Defines how policies are reviewed and updated.
-  - `ai-risk-register.md`  
-    Records potential AI risks and mitigation strategies.
+### Governance
+- [ai-tool-approval-process.md](governance/ai-tool-approval-process.md)
+- [review-cycle.md](governance/review-cycle.md)
+- [ai-risk-register.md](governance/ai-risk-register.md)
 
-- `README.md`  
-  Overview of the AI governance framework.
-
-- `CONTRIBUTING.md`  
-  Explains how policy changes are proposed, reviewed and approved.
+### Root
+- [README.md](README.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)

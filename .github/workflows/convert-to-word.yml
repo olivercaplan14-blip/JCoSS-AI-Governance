@@ -1,0 +1,44 @@
+name: Convert Policies to Word Documents
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "policies/**/*.md"
+  workflow_dispatch:
+
+jobs:
+  convert:
+    name: Markdown → Word (.docx)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y pandoc
+
+      - name: Convert each policy to Word
+        run: |
+          mkdir -p word-documents
+          for file in policies/*.md; do
+            filename=$(basename "$file" .md)
+            pandoc "$file" \
+              --from markdown \
+              --to docx \
+              --output "word-documents/${filename}.docx" \
+              --metadata title="JCoSS AI Governance" \
+              --standalone
+            echo "Converted: $file → word-documents/${filename}.docx"
+          done
+
+      - name: Upload Word documents as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: word-documents
+          path: word-documents/
+          retention-days: 90

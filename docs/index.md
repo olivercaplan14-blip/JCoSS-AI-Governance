@@ -45,18 +45,16 @@ This repository provides the framework for managing those considerations.
 
 
 ### Policies
-- [AI Ethics Statement](../Policies/AI%20Ethics%20Statement)
-- [AI Acceptable Use Policy](../Policies/AI%20Acceptable%20Use%20Policy)
-- [AI Assessment Policy](../Policies/AI%20Assessment%20Policy)
+- [AI Ethics Statement](Policies/AI%20Ethics%20Statement.md)
+- [AI Acceptable Use Policy](Policies/AI%20Acceptable%20Use%20Policy.md)
+- [AI Assessment Policy](Policies/AI%20Assessment%20Policy.md)
 
 ### Guidance
-- [Student AI Guidance](../Guidance/Student%20AI%20Guidance)
-- [Staff AI Guidance](../Guidance/Staff%20AI%20Guidance)
+- [Student AI Guidance](Guidance/Student%20AI%20Guidance.md)
+- [Staff AI Guidance](Guidance/Staff%20AI%20Guidance.md)
 
 ### Governance
-- [AI Tool Approval Process](../Governance/AI%20Tool%20Approval%20Process)
-- [AI Governance Review Cycle](../Governance/AI%20Governance%20Review%20Cycle)
-- [AI Risk Assessment](../Governance/AI%20Risk%20Assessment)
+- [AI Tool Approval Process](Governance/AI%20Tool%20Approval%20Process.md)
+- [AI Governance Review Cycle](Governance/AI%20Governance%20Review%20Cycle.md)
+- [AI Risk Assessment](Governance/AI%20Risk%20Assessment.md)
 
-### Root
-- [README.md](../README.md)

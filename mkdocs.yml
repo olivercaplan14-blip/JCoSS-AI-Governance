@@ -1,0 +1,23 @@
+site_name: School AI Governance Framework
+site_description: AI governance policies and guidance
+site_author: AI Governance Group
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+  - Policies:
+      - AI Ethics Statement: policies/ai-ethics-statement.md
+      - Acceptable Use Policy: policies/acceptable-use-policy.md
+      - Assessment AI Policy: policies/assessment-ai-policy.md
+
+  - Guidance:
+      - Student AI Guidance: guidance/student-ai-guidance.md
+      - Staff AI Guidance: guidance/staff-ai-guidance.md
+
+  - Governance:
+      - AI Tool Approval Process: governance/ai-tool-approval-process.md
+      - Review Cycle: governance/review-cycle.md
+      - AI Risk Register: governance/ai-risk-register.md

@@ -18,7 +18,7 @@ The purpose of this policy is to ensure that AI technologies are used safely, re
 
 This policy should be read alongside:
 
-- AI Ethics Statement
+- AI Ethics Statemen
 - Assessment AI Policy
 - Student AI Guidance
 - Staff AI Guidance
